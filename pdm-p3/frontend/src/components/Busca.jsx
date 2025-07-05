@@ -5,7 +5,7 @@ import { InputText } from 'primereact/inputtext'
 import Exibicao from './Exibicao.jsx'
 
 const Busca = () => {
-  const [coordenadas, setCoordenadas] = useState('-23.561167625063238, -46.65648357473211')
+  const [coordenadas, setCoordenadas] = useState('-23.561167625063238,-46.65648357473211')
   const [opcao, setOpcao] = useState(null)
   const [resultados, setResultados] = useState(null)
   const timeoutRef = useRef(null)

@@ -34,5 +34,5 @@ app.get('/previsao', async (req, res) => {
   }
 })
 
-const port = 3000
+const port = 3001
 app.listen(port, () => console.log(`BACK END OK! PORTA ${port}.`))
